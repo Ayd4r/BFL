@@ -9,8 +9,9 @@
     /* background-color: #fafffe; */
     font-family: 'Inter', sans-serif;
     letter-spacing:-0.3px;
-    background-image: URL('/images/back3.png');
+    background-image: URL('/images/BACKA.png');
     background-repeat: no-repeat;
+    background-size: contain;
   }
   html {
     scroll-behavior: smooth;
