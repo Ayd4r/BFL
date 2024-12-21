@@ -416,9 +416,9 @@ button {
 }
 @media (max-width: 800px){
   html, body {
-    overflow-x: hidden; /* Отключает горизонтальную прокрутку */
-    width: 100%; /* Обеспечивает правильную ширину */
-    margin: 0; /* Убирает лишние отступы */
+    overflow-x: hidden; 
+    width: 100%; 
+    margin: 0; 
     padding: 0;
   }
   header {
@@ -519,4 +519,162 @@ button {
     font-size:20px;
     
   }
+}
+@media (min-width: 2000px){
+  .about-us {
+    margin-top: 350px;
+  }
+  
+  .partner-card {
+    
+  }
+  .partner-card h3{
+    font-size: 30px;
+  }
+  .partner-card h1{
+    font-size: 100px;
+  }
+  .partner-card .description{
+    font-size: 35px;
+  }
+  header nav ul li a{
+    font-size: 30px;
+  }
+  header .logo img {
+    height: 110px;
+  }
+  .about-us-cards div {
+    max-width: 700px;
+    margin-top:20px ;
+    padding-bottom: 40px;
+
+  }
+  .about-us{
+    margin-bottom: 70px;
+  }
+  .about-us-cards div h2 {
+    margin-top: 80px;
+    font-size: 55px;
+    margin-bottom: 0px;
+  }
+
+  
+  .about-us-cards div p {
+   
+    font-size: 30px;
+  }
+  .about-us .abtus-content h1{
+    font-size: 80px;
+   
+  }
+  .about-us .abtus-content p{
+    padding-top: 0px;
+  }
+  .about-us .abtius {
+    font-size: 35px;
+  }
+  .about-us .abtus {
+    font-size: 30px;
+  }
+  .services2 h3{
+    font-size: 30px;
+
+  }
+  .services2 h2{
+    font-size: 85px;
+    
+  }
+  .services2 p {
+    font-size: 45px;
+  }
+  .services-cards .services-content div{
+    font-size: 50px;
+    padding-top: 40px;
+  }
+  .services-cards img{
+    height:700px;
+  }
+  .services-cards .services-content div i{
+    width:70px;
+    display:none;
+  }
+  .services-cards2 .services-content2 div{
+    font-size: 50px;
+    padding-top: 40px;
+  }
+  .services-cards2 img{
+    height:700px;
+  }
+  .services-cards2 .services-content2 div i{
+    width:70px;
+    display:none;
+  }
+  .services-content2{
+    padding-left:160px;
+    
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top:140px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .footer-section p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #ccc;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #f1c40f;
+  }
+  
+  .footer-bottom {
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #bbb;
+  }
+  
+
+
 }
